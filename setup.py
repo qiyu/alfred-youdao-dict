@@ -2,9 +2,9 @@ from setuptools import setup
 
 install_requires = list(filter(None, ('''
 
-xmltodict==0.12.0
-requests==2.24.0
-pydash==4.8.0
+xmltodict
+requests
+pydash
 
 ''').splitlines()))
 
